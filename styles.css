@@ -1,0 +1,57 @@
+body {
+  background: #f0dec6;
+  --sepia-text: #624d32;
+  color: var(--sepia-text);
+}
+
+.noto-serif{
+  font-family: "Noto Serif", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#title {
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 3em;
+}
+
+#subtitle{
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.75em;
+}
+
+a{
+  color: #624d32;
+}
+
+h3{
+  font-size: 1.75em;
+  font-weight: 300;
+}
+
+p{
+  font-size: 1.5em;
+}
+
+a>button{
+  appearance: none;
+  color: var(--sepia-text);
+  border-width: 0px;
+  background: #f0dec6;
+  font-size: 1.5em;
+}
+
+a>button:hover{
+  background: #afa18e;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+}
