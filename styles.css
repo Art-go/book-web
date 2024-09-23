@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   background: #f0dec6;
   --sepia-text: #624d32;
@@ -10,6 +12,13 @@ body {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+.jetbrains-mono {
+  font-family: "JetBrains Mono", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #title {
@@ -37,6 +46,19 @@ h3{
 
 p{
   font-size: 1.25em;
+  text-indent: 30px;
+}
+
+.code{
+  font-size: 1em;
+  margin-left: 30px;
+  text-indent: 0px;
+  display: block;
+}
+
+hr{
+  border: 0px;
+  border-top: 1px solid #ccb69a;
 }
 
 a>button{
@@ -54,4 +76,12 @@ a>button:hover{
 nav{
   display: flex;
   justify-content: center;
+}
+
+.volume{
+  display: inline-block;
+  margin-right:50px;
+}
+.volume>a{
+  display: block;
 }
